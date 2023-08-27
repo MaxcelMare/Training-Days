@@ -42,7 +42,7 @@ const event = getRandEvent();
 const days = getTrainingDays(event);
 // Defined a `name` variable. Use it as an argument after updating logEvent and logTime 
 
-
+// Added functions for another competitors
 logEvent(name,event);
 logTime(name,days);
 
@@ -52,3 +52,11 @@ const name2 = 'Valeriia';
 
 logEvent(name2, event2);
 logTime(name2, days2);
+
+const event3 = getRandEvent();
+const days3 = getTrainingDays(event3);
+const name3 = 'Max';
+
+logEvent(name3, event3);
+logTime(name3, days3);
+
